@@ -1,0 +1,9 @@
+{
+  "extends": ["stylelint-config-standard", "stylelint-config-idiomatic-order"],
+  "plugins": ["stylelint-order"],
+  "rules": {
+    "value-keyword-case": null,
+    "no-duplicate-selectors": null,
+    "indentation": [2, { "baseIndentLevel": 1 }]
+  }
+}

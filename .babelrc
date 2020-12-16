@@ -1,0 +1,28 @@
+{
+  "presets": [
+    "@babel/env",
+    [
+      "@babel/react",
+      {
+        /*
+         * Enables automatic React injection, so you don't
+         * need to import it when you simply use JSX.
+         * @see https://reactjs.org/blog/2020/09/22/introducing-the-new-jsx-transform.html
+         */
+        "runtime": "automatic"
+      }
+    ]
+  ],
+  "plugins": [
+    [
+      "babel-plugin-styled-components",
+      {
+        /*
+         * Requires Styled Components to generate human-readable class names
+         * Useful to simplify the debugging process
+         */
+        "displayName": true
+      }
+    ]
+  ]
+}
