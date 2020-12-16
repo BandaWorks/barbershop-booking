@@ -1,6 +1,6 @@
 ### :rocket: What you'll build?
 
-_Booking service to enable barbershop's clients to schedule a visit to their barbers_. The web app is requested by one imaginary barbershop company that is dealing with a lot of potential clients leaving them as they don't have a booking service.
+_Booking service for a barbershop_. The web app is requested by one imaginary barbershop company that is dealing with a lot of potential clients leaving them as they don't have a booking service.
 
 #### :wrench: Recommended tools
 
