@@ -72,7 +72,16 @@ Response example:
 
 ### Tasks
 
-// TODO: Add tasks
+- [ ] "Choose a service" flow
+
+  - [ ] When I click on "Choose a service", I can see list of services with their corresponding names, durations and prices
+  - [ ] When I select a specific service, I can see list of barbers that provide this service
+  - [ ] When I select a barber, I can see the order details with barber's name, the service name and its price
+
+- [ ] "Choose a barber" flow
+  - [ ] When I click on "Choose a barber", I can see list of barbers with their corresponding profile images, names and availability status
+  - [ ] When I select a specific barber, I can see list of the services this barber provides
+  - [ ] When I select a service, I can see the order details with barber's name, the service name and its price
 
 &nbsp;
 
