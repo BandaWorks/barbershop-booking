@@ -9,9 +9,12 @@ _Booking service for a barbershop_. The web app is requested by one imaginary ba
 
 - React and MobX
 - [Styled Components](https://styled-components.com/)
-- Parcel
+- [date-fns](https://date-fns.org/) for handling the dates
+- [Web Intl API: NumberFormat](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/NumberFormat/NumberFormat) for working with different currencies
 
-##### To start the project
+##### Start the project
+
+[Parcel](https://parceljs.org/) is already set up as the module bundler. To start the project:
 
 ```bash
 npm start
