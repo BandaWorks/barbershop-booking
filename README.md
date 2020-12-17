@@ -87,6 +87,8 @@ Response example:
 
 #### Optional tasks
 
+> These are optional problems you may solve to make the project a more significant work in your portfolio.
+
 - [ ] Display loading indicator while the services/barbers data is fetched. For example, you could show [react top loading bar](https://klendi.github.io/react-top-loading-bar/) after the user clicks on "Choose a ..." buttons.
 
 - [ ] Make the UI accessible through keyboard:
