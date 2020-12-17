@@ -23,7 +23,10 @@ const BaseStyle = createGlobalStyle`
 const App = () => (
   <>
     <BaseStyle />
-    <p>Joey: How you doin'? ͡° ͜ʖ ͡° </p>
+    <div style={{ padding: 16 }}>
+      <h1>The Perfecto Barbershop: Booking</h1>
+      <p>How you doin'? ͡° ͜ʖ ͡° </p>
+    </div>
   </>
 );
 
