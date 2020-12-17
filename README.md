@@ -9,24 +9,60 @@ _Booking service for a barbershop_. The web app is requested by one imaginary ba
 
 - React and MobX
 - [Styled Components](https://styled-components.com/)
+- Parcel
 
-Parcel already set up as a module bundler. To start the project:
+##### To start the project
 
 ```bash
 npm start
 ```
 
-There's a [MirageJS](https://miragejs.com/) set up as a fake backend service. It automatically initialized when you start the project.
+##### API
 
-```bash
-# Make sure you started the project first using `npm start`
+There's a [MirageJS](https://miragejs.com/) set up as a fake backend service. It is initialized when you start the project (see `api-fake` folder).
 
+**Get all barbers, each barber contains own collection of services**
 
-# Get the list of barbers, each barber contains own list of services
-curl localhost:1234/api/barbers/
+```
+GET /api/barbers/
 
-# Get the list of all available services
-fetch localhost:1234/api/barbers/
+Response example: [
+    {
+        "id": 1,
+        "firstName": "James",
+        "lastName": "Richards",
+        "photo": "https://via.placeholder.com/150",
+        // Services that this barber provides
+        "services": [
+            {
+                "id": 1,
+                "name": "Buzz Cut",
+                "price": 2000,
+                "currency": "usd",
+                "duration": 75
+            }
+        ]
+    }
+]
+```
+
+**Get all available services**
+
+```
+GET /api/barbers/
+
+Response example:
+[
+    {
+        "id": 1,
+        "name": "Buzz Cut",
+        // Price is retured in cents
+        "price": 2000,
+        "currency": "usd",
+        // Duration is returned in minutes
+        "duration": 75,
+    }
+]
 ```
 
 &nbsp;
