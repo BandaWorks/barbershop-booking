@@ -72,6 +72,8 @@ Response example:
 
 ### Tasks
 
+> Project is completed when satisfies the [acceptance criteria](https://rubygarage.org/blog/clear-acceptance-criteria-and-why-its-important) listed below.
+
 - [ ] "Choose a service" flow
 
   - [ ] When I click on "Choose a service", I can see list of services with their corresponding names, durations and prices
@@ -82,6 +84,15 @@ Response example:
   - [ ] When I click on "Choose a barber", I can see list of barbers with their corresponding profile images, names and availability status
   - [ ] When I select a specific barber, I can see list of the services this barber provides
   - [ ] When I select a service, I can see the order details with barber's name, the service name and its price
+
+#### Optional tasks
+
+- [ ] Display loading indicator while the services/barbers data is fetched. For example, you could show [react top loading bar](https://klendi.github.io/react-top-loading-bar/) after the user clicks on "Choose a ..." buttons.
+
+- [ ] Make the UI accessible through keyboard:
+      <img src="./Booking - Keyboard accessability demo.gif">
+
+- [ ] Add support for `eur` (Europe euro) and `gbp` (UK pound sterling) currencies
 
 &nbsp;
 
